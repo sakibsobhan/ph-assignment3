@@ -57,3 +57,11 @@ section{
         margin-bottom: 0;
     }
 }
+
+
+.accordion-item .accordion-button{
+    color: #4A4A4A;
+}
+.accordion-item:first-of-type .collapsed{
+    background: white !important;
+}
