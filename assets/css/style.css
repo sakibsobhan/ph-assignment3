@@ -43,6 +43,9 @@ section{
     .title p{
         width: 100% !important;
     }
+    #register .row .col-lg-6:last-child{
+        flex-direction: row-reverse;
+    }
 }
 @media (max-width:575px){
     #banner-part h1{
