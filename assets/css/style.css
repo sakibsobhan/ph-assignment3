@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 .content{
     transform: translate(-50%, -50%);
 }
@@ -14,7 +17,6 @@ body{
     overflow: hidden;
 
 }
-
 .carousel-item .image::after{
     position: absolute;
     top: 0;
@@ -24,4 +26,31 @@ body{
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
 
+}
+@media (max-width:991px){
+    #banner-part h1{
+        font-size: 30px;
+        font-weight: 500 !important;
+    }
+    #banner-part p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .title h1{
+        width: 100% !important;
+    }
+    .title p{
+        width: 100% !important;
+    }
+}
+@media (max-width:575px){
+    #banner-part h1{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    #banner-part p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
 }
