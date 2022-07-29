@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    transform: translate(-50%, -50%);
+}
+
+.content h1{
+    font-size: 60px;
+}
+.carousel-item .image{
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+
+.carousel-item .image::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+}
